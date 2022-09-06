@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <title>emelmento form</title>
+</head>
+
+<body>
+    <!-- estrutura do elemento form-->
+    <form method="post" action="brianmpirez@gmail.com">
+        <input required />
+        <input type="submit" value="enviar">
+
+        <!--valor check box do atributo type-->
+        <p>escolha o estado que vc quer viver</p>
+        <label for="tor">toronto</label>
+        <input type="checkbox" id="cid"><br>
+
+
+        <label for="tex">texas</label>
+        <input type="checkbox" id="cid">
+
+        <!--valor radio para atributo type-->
+        <p>slecione a vacina</p>
+        <label for="meg">megatron</label>
+        <input type="radio" id="meg" name="tipo">
+
+        <label for="bom">bombobi</label>
+        <input type="radio" id="bom" name="tipo">
+
+
+
+        <label for="iro">bombeiro</label>
+        <input type="radio" id="iro" name="tipo">
+
+        <!--elemento selct,datalist e option-->
+        <label for="pao">escolha o seu pão</label>
+        <select name="pao" id="pao">
+            <option value="forma">forma</option>
+            <option value="bronha">bronha</option>
+            <option value="bagete">bagete</option>
+            <option value="frances">frances</option>
+        </select>
+<label for="times">times com mudial</label>
+<input autocomplete="on" list="time"   name="times" id="times">
+
+<datalist id="times">
+    <option value="penacolence">penacolence</option>
+    <option value="por">portuguesa</option> 
+    <option value="pal">palmeiras</option>
+    <option value="cha">chapeco</option>
+    <option value="pia">piaui</option>
+    
+</datalist>
+
+    </form>
+</body>
+
+</html>
