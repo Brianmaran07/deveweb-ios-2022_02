@@ -1,0 +1,32 @@
+
+    body{
+    background-color: black;
+    color: black;
+    font-family: Arial, Verdana, sans-serif;
+    text-align: center;
+    }
+
+h1{
+    color: rgb(140, 140, 140)
+    line-height: 200%;
+    font-family: Arial, Verdana, sans-serif;
+    text-align: center;
+    text-shadow: 3px 3px 5px #cccccc;
+}
+
+p{
+    color:font-family: Arial, Verdana, sans-serif;
+    text-align: center;
+    text-shadow: 3px 3px 5px #da1010;
+    background: 3px 3px 5px #f00;
+    style="background-color: ;#d77"
+}
+
+h2{
+    color: darkred;
+    font-family: Arial, Verdana, sans-serif;
+    text-align: center;
+    text-shadow: 3px 3px 5px #da1010;
+}
+
+como surgiu o p
