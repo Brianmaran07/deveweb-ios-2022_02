@@ -1,0 +1,37 @@
+p:first-child{
+    color: blue;
+}
+
+
+.mylist  li:first-child{
+    background-color: coral;
+}
+.mylist li:nth-child(3){
+    background-color: cadetblue;
+}
+.mylist .li:last-child{
+    background-color: antiquewhite;
+}
+
+a:hover{
+    background-color: blueviolet;
+}
+
+#paragrafo::before{
+    content: "leia isso ";
+}
+#paragrafo2::after{
+    content: "leia isso -";
+}
+
+p::first-letter{
+font-size: 80px;
+}
+
+#first::first-line{
+    background-color: chocolate;
+}
+p::selection{
+    color: azure;
+    background-color: darkblue;
+}
