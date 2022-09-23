@@ -1,0 +1,39 @@
+body{
+    background-color: red;
+}
+header{
+    text-align: center;
+    
+}
+.container div{
+    border: 15px black solid;
+    padding: 30px;
+    display: flex;
+
+}
+.container {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    border: 15px black;
+    padding: 10px;
+}
+h2{
+    color: yellow;
+    display: flex;
+}
+.lenin{
+    color: yellow;
+    display: flex;
+}
+.marx{
+   
+    color: yellow;
+    display: flex;
+}
+.stalin{
+color: yellow;
+}
+.urss{
+color: yellow;
+}
