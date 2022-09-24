@@ -1,0 +1,31 @@
+.container{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: repeat(3,1fr); 
+    /*grid-template-areas: 
+    "pipoca-1 pipoca-1 pipoca-1" 
+    "pipoca-2 pipoca-2  pipoca-2 . . "
+    "pipoca-4 pipoca-4 pipoca-4 pipoca-5"
+    "pipoca-3 pipoca-3 pipoca-3";*/
+
+}
+.item-1{
+    grid-area: pipoca-1;
+    border: 1px solid purple; 
+}
+.item-2{
+    grid-area: pipoca-2 ;
+    border: 1px solid red;
+}
+.item-3{
+    grid-area: pipoca-3;
+    border: 1px solid green;
+}
+.item-4{
+    grid-area: pipoca-4;
+    border: 1px solid blue;
+}
+.item-5{
+    grid-area: pipoca-5;
+    border: 1px solid yellow;
+}
