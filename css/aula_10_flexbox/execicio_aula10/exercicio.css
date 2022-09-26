@@ -1,15 +1,13 @@
-body{
+body {
     background-color: red;
 }
-header{
+header {
     text-align: center;
-    
 }
-.container div{
-    border: 15px black solid;
+.container div {
+    border: 5px black solid;
     padding: 30px;
-    display: flex;
-
+    justify-self: start;
 }
 .container {
     display: flex;
@@ -18,22 +16,26 @@ header{
     border: 15px black;
     padding: 10px;
 }
-h2{
+h2 {
     color: yellow;
     display: flex;
 }
-.lenin{
+.lenin {
     color: yellow;
+    justify-content: flex-start;
     display: flex;
 }
-.marx{
-   
+.marx {
     color: yellow;
     display: flex;
+    justify-content: flex-start;
 }
-.stalin{
-color: yellow;
+
+.stalin {
+    color: yellow;
+    display: flex;
+    justify-content: flex-end;
 }
-.urss{
-color: yellow;
+.urss {
+    color: yellow;
 }
