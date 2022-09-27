@@ -2,6 +2,8 @@
     display: grid;
     grid-template-columns: repeat(4,1fr);
     grid-template-rows: repeat(3,1fr); 
+    justify-items: start;
+    align-items: start';
     /*grid-template-areas: 
     "pipoca-1 pipoca-1 pipoca-1" 
     "pipoca-2 pipoca-2  pipoca-2 . . "
