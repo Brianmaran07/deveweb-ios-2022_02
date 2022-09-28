@@ -1,0 +1,11 @@
+body{
+    background-color: rgb(48, 108, 236);
+    color: #010000;
+    text-align: center;
+}
+h1{
+    color: #ffff;
+}
+p{
+   color:hsl(305, 100%, 50%);
+}
