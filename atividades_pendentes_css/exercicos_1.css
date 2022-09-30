@@ -1,0 +1,18 @@
+body{
+    background-color: aquamarine;
+    
+}
+h1{
+    background-color: aqua;
+    color: blue;
+    inline-size: 2px; 
+
+}
+
+h3{
+ inline-size: 2px; 
+ color: blueviolet;
+}
+p{
+    color: chartreuse;
+}
