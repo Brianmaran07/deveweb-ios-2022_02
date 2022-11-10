@@ -1,23 +1,27 @@
-let alunos = [
+const alunos = [
+    {
+        nome: 'karl marx',
+        escola: 'antonio lisboa',
+        responsaveis: 'maria e carlos',
+        Nota: [10, 1, 9, 3], 
 
- {
- nome: "karl marx",
- notas: [10,9,0,7],
- endereço: "Tréveris",{
-    rua: "união",
-    Numero: "13" 
- },
+        endereço: {
+            rua: 'união',
+            Numero: '13',
+            cep: 1922 - 1991,
+        },
+    },
 
- série:"2 ANO DO ENSINO MEDIO",
+    {
+        nome: 'vladimir lenin',
+        escola: 'Universidade Imperial de São Petersburgo',
+        responsaveis: 'Ilia Uliánov e Maria Alexandrovna Blank',
+        nota: [10, 2, 9, 10],
 
- 
-    
-}
-
-{
-    nome: "valadimir lenin"
-
-}
-
-
+        Endereço: {
+            rua: 'Podolsk',
+            Numero: '21',
+            cep: 1922 - 1991,
+        },
+    },
 ]
